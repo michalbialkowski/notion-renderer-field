@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpb\NotionRenderer;
+namespace Michalbialkowski\NotionRendererField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
@@ -16,8 +16,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('notion-renderer', __DIR__.'/../dist/js/field.js');
-            Nova::style('notion-renderer', __DIR__.'/../dist/css/field.css');
+            Nova::script('notion-renderer-field', __DIR__.'/../dist/js/field.js');
+            Nova::style('notion-renderer-field', __DIR__.'/../dist/css/field.css');
         });
     }
 

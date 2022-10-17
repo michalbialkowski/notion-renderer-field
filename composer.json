@@ -1,6 +1,6 @@
 {
     "name": "michalbialkowski/notion-renderer-field",
-    "description": "Notion Rendered Field for Laravel Nova",
+    "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
         "nova"
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Mpb\\NotionRenderer\\": "src/"
+            "Michalbialkowski\\NotionRendererField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mpb\\NotionRenderer\\FieldServiceProvider"
+                "Michalbialkowski\\NotionRendererField\\FieldServiceProvider"
             ]
         }
     },
