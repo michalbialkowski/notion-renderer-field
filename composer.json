@@ -1,6 +1,6 @@
 {
     "name": "michalbialkowski/notion-renderer-field",
-    "description": "A Laravel Nova field.",
+    "description": "Notion Renderer Field for Laravel Nova",
     "keywords": [
         "laravel",
         "nova"
