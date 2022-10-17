@@ -1,13 +1,29 @@
-Installation:
+## Installation
 
+```bash
 composer require michalbialkowski/notion-renderer-field
+```
 
-Usage:
+## Usage
+
+```php
+namespace App\Nova;
 
 use Michalbialkowski\NotionRendererField\NotionRendererField;
 
-…
+class Note extends Resource
+{
+	// ...
 
-NotionRendererField::make('Notion Link', 'link')
-	->displayUsing(fn () => $this->link),
-
+	public function fields(Request $request)
+	{
+		return [
+			// ...
+			
+			NotionRendererField::make('Notion Link', 'link'),
+			
+			// ...
+		];
+	}
+}
+```
