@@ -1,6 +1,6 @@
 {
     "name": "mpb/notion-renderer",
-    "description": "A Laravel Nova field.",
+    "description": "Notion Rendered Field for Laravel Nova",
     "keywords": [
         "laravel",
         "nova"
