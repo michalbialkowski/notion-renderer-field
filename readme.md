@@ -1,6 +1,6 @@
 Installation:
 
-composer install michalbialkowski/notion-renderer-field
+composer require michalbialkowski/notion-renderer-field
 
 Usage:
 
