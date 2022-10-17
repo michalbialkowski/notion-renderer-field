@@ -29,8 +29,8 @@ class Note extends Resource
 ```
 ## Form View
 
-['screenshot'](https://dsc.cloud/Michalbialkowski/Zrzut-ekranu-2022-10-17-o-14.45.22.png)
+!['screenshot'](https://dsc.cloud/Michalbialkowski/Zrzut-ekranu-2022-10-17-o-14.45.22.png)
 
 ## Details View
 
-['screenshot'](https://dsc.cloud/Michalbialkowski/Zrzut-ekranu-2022-10-17-o-14.36.11.png)
+!['screenshot'](https://dsc.cloud/Michalbialkowski/Zrzut-ekranu-2022-10-17-o-14.36.11.png)
